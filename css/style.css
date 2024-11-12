@@ -1,0 +1,23 @@
+
+
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Impact;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+}
+
+.btn-danger:hover {
+    background-color: greenyellow;
+    transition: all 0.5s;
+    color: black;
+} 
+
+.author{
+    color: rgb(172, 51, 51);
+}
