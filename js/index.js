@@ -60,38 +60,38 @@ var quoteArray = [
 ]
 
 
-// let previousIndex;
-
-// function nextQuote() {
-
-//     let newInedx = '';
-
-//     do{
-//         newInedx = Math.floor(Math.random() * quoteArray.length);
-
-//     } while (previousIndex == newInedx);
-//     previousIndex = newInedx;
-//     console.log(newInedx);
-//     document.getElementById('quote').innerHTML = quoteArray[newInedx].quote;
-//     document.getElementById('writer').innerHTML = quoteArray[newInedx].writer;
-// }
-
-
-
-
-
 let previousIndex;
 
 function nextQuote() {
 
-     let newInedx = 0
+    let newInedx = '';
 
-    for ( ; previousIndex == newInedx ; newInedx++){
+    do{
         newInedx = Math.floor(Math.random() * quoteArray.length);
 
-    }
+    } while (previousIndex == newInedx);
     previousIndex = newInedx;
     console.log(newInedx);
     document.getElementById('quote').innerHTML = quoteArray[newInedx].quote;
     document.getElementById('writer').innerHTML = quoteArray[newInedx].writer;
 }
+
+
+
+
+
+// let previousIndex;
+
+// function nextQuote() {
+
+//      let newInedx = 0
+
+//     for ( ; previousIndex == newInedx ; newInedx++){
+//         newInedx = Math.floor(Math.random() * quoteArray.length);
+
+//     }
+//     previousIndex = newInedx;
+//     console.log(newInedx);
+//     document.getElementById('quote').innerHTML = quoteArray[newInedx].quote;
+//     document.getElementById('writer').innerHTML = quoteArray[newInedx].writer;
+// }
